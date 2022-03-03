@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarCampeonato1">
+
+    <TextView
+        android:id="@+id/txt_actualizar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/txt_campeonatoactualizar1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/sp_campActualizar"
+        android:layout_width="311dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_actualizar1"
+        app:layout_constraintStart_toStartOf="@+id/txt_actualizar1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_actualizar1" />
+
+    <Button
+        android:id="@+id/btn_siguiente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:onClick="Actualizarsiguiente"
+        android:text="@string/btn_siguiente"
+        app:layout_constraintStart_toStartOf="@+id/sp_campActualizar"
+        app:layout_constraintTop_toBottomOf="@+id/sp_campActualizar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

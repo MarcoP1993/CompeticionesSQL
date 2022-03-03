@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CompeticionesSQL</string>
+    <string name="nuevo_campeonato">Nuevo Campeonato</string>
+    <string name="actualizar_campeonato">Actualizar Campeonato</string>
+    <string name="borrar_campeonato">Borrar Campeonato</string>
+    <string name="mostrar_escuderias">Mostrar Escuderias</string>
+    <string name="titulo_campeonato">Nuevo Campeonato</string>
+    <string name="nombre_campeonato">Nombre Campeonato</string>
+    <string name="crear_campeonato">Crear Campeonato</string>
+    <string name="nueva_escuderia">Nueva Escuderia</string>
+    <string name="nombre_escuderia">Nombre Escuderia</string>
+    <string name="ano_fundada">Año fundada</string>
+    <string name="pais_escuderia">Pais</string>
+    <string name="anadir_escuderia">Añadir Escuderia</string>
+
+    <string name="btn_borrar_campeonato">Borrar Campeonato</string>
+    <string name="item_campeonato">item_campeonato</string>
+    <string name="txt_campeonatoactualizar1">Que campeonato quieres actualizar</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="actualizar_campeonato2">Actualizar Campeonato</string>
+    <string name="txt_idcampeonato">IdCampeonato</string>
+    <string name="txt_nombre_campeonato">Nombre Campeonato</string>
+    <string name="edt_nombre_campeonato">Nombre Campeonato</string>
+    <string name="edt_id_campeonato">id Campeonato</string>
+    <string name="btn_actualizar_campeonato">Actualizar CAmpeonato</string>
+    <string name="imagen_cargar">TODO</string>
+    <string name="imagen_anadir">TODO</string>
+    <string name="txt_lista_escuderias">Lista Escuderias</string>
+    <string name="img_escuderia">img_escuderia</string>
+    <string name="imagen">TODO</string>
+    <string name="txt_nombreEscuderiaDetalle">TextView</string>
+    <string name="nombre_escuderiadetalle">Nombre escuderia</string>
+    <string name="ano_fundadaDetalle">Año Fundada</string>
+    <string name="txt_paisDetalle">TextView</string>
+    <string name="paisDetalle">Pais</string>
+    <string name="txt_CampeonatoDetalle">TextView</string>
+    <string name="pais_detalle">Pais</string>
+    <string name="pais">Pais</string>
+    <string name="campeonato_detalle2">Campeonato</string>
+    <string name="txt_nomEscuDetalle">TextView</string>
+    <string name="nomEscuDetalle">Nombre Escuderia</string>
+</resources>

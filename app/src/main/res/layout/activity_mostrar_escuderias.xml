@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MostrarEscuderias">
+
+    <ImageView
+        android:id="@+id/imagen_cargar"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="200dp"
+        android:contentDescription="@string/imagen_cargar"
+        android:onClick="refrescarEscuderia"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen_anadir"
+        app:layout_constraintEnd_toStartOf="@+id/imagen_anadir"
+        app:layout_constraintTop_toTopOf="@+id/imagen_anadir"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/reload" />
+
+    <ImageView
+        android:id="@+id/imagen_anadir"
+        android:layout_width="80dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="293dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="NuevaCiudad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/anadir"
+        android:contentDescription="@string/imagen_anadir" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_Escuderias"
+        android:layout_width="0dp"
+        android:layout_height="498dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_listaescuderias"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/txt_listaescuderias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/txt_lista_escuderias"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
